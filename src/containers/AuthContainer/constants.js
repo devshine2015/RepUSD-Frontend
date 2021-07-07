@@ -1,0 +1,3 @@
+export const LOGIN_REQUEST = 'auth/LOGIN_REQUEST';
+export const LOGIN_REQUEST_SUCCESS = 'auth/LOGIN_REQUEST_SUCCESS';
+export const LOGIN_REQUEST_FAIL = 'auth/LOGIN_REQUEST_FAIL';
