@@ -1,0 +1,47 @@
+.connect-wallet {
+    width: 50% !important;
+}
+
+.connect-wallet-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect-wallet-modal-header {
+    text-align: center;
+}
+
+.connect-wallet-modal-title {
+    font-size: 30.21pt;
+    font-weight: bold;
+}
+
+.connect-wallet-modal-explain {
+    font-size: 16.11pt;
+}
+
+.connect-wallet-select {
+    width: 75%;
+}
+
+.connect-wallet-modal-footer {
+    text-align: center;
+}
+
+.theme-color {
+    color: #d5b75f;
+}
+
+.connect-wallet-modal-body {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wallet {
+    width: 180px;
+    height: 120px;
+    margin: 10px !important;
+}

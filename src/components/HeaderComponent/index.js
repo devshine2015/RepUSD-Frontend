@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, Button } from 'antd';
 
+import WalletModalComponent from 'components/WalletModalComponent';
 import NavbarList from 'const/navbar';
 
 import { RepusdSmallMark } from 'img';
@@ -9,6 +10,7 @@ import './style.css';
 export default (props) => {
 	const { selectedItem } = props;
 	const [menuFoldState, setMenuFoldState] = useState(false);
+	const [isModalVisible, setIsModalVisible] = useState(false);
 
 	const toggleCollapsed = () => {
 		setMenuFoldState(!menuFoldState);
@@ -21,13 +23,12 @@ export default (props) => {
 				newArray.push(index.toString());
 			}
 		})
-		console.log(newArray)
 
 		return newArray;
 	}
 
 	const showWalletModal = () => {
-		alert("here");
+		setIsModalVisible(true);
 	}
 
   	return (
@@ -49,6 +50,7 @@ export default (props) => {
 			<Button className="header-collapse-btn" onClick={toggleCollapsed} style={{ marginBottom: 16 }}>
 				{!menuFoldState ? 'Unfold' : 'Fold'}	
 			</Button>
+			<WalletModalComponent visible={isModalVisible} setIsModalVisible={setIsModalVisible} />
 		</>
   	)
 }

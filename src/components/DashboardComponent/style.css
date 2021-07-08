@@ -84,3 +84,12 @@ table tbody tr {
 .header-title-fore {
     font-size: 10px;
 }
+
+.ant-table-pagination > * {
+    border: none !important;
+    background: transparent !important;
+}
+
+.ant-table-pagination .ant-pagination-item-active {
+    background: #d5b75f !important;
+}

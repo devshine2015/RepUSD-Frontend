@@ -38,10 +38,10 @@ export default props => {
 
     const itemRender = (current, type, originalElement) => {
         if (type === 'prev') {
-            return <Button>Previous</Button>;
+            return <Button style={{backgroundColor: 'black', color: 'white'}}>Previous</Button>;
         }
         if (type === 'next') {
-            return <Button>Next</Button>;
+            return <Button style={{backgroundColor: '#d5b75f', color: 'white'}}>Next</Button>;
         }
 
         return originalElement;
