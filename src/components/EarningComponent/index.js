@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { PageHeader, Table, Button, Input, Select } from 'antd';
+import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from 'react-icons/ai';
 
 import './style.css';
 
@@ -23,10 +24,10 @@ export default () => {
 
     const itemRender = (current, type, originalElement) => {
         if (type === 'prev') {
-            return <Button style={{backgroundColor: 'black', color: 'white'}}>Previous</Button>;
+            return <Button style={{backgroundColor: 'black', color: 'white', display: 'flex', alignItems: 'center'}}><AiOutlineDoubleLeft />&nbsp;Previous</Button>;
         }
         if (type === 'next') {
-            return <Button style={{backgroundColor: '#d5b75f', color: 'white'}}>Next</Button>;
+            return <Button style={{backgroundColor: '#d5b75f', color: 'white', display: 'flex', alignItems: 'center'}}>Next&nbsp;<AiOutlineDoubleRight /></Button>;
         }
 
         return originalElement;
