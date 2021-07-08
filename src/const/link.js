@@ -1,10 +1,3 @@
-import {
-  TwitterCircleFilled,
-  InstagramOutlined,
-  FacebookFilled,
-  YoutubeOutlined,
-} from '@ant-design/icons';
-
 export default [
   {
     name: 'QUICK LINK',
@@ -115,27 +108,27 @@ export default [
     name: 'FOLLOW US ON',
     childLink: [
       {
-        icon: <TwitterCircleFilled />,
+        icon: null,
         name: 'Twitter',
         url: '',
       },
       {
-        icon: <InstagramOutlined />,
+        icon: null,
         name: 'Instagram',
         url: '',
       },
       {
-        icon: <InstagramOutlined />,
+        icon: null,
         name: 'Pinterest',
         url: '',
       },
       {
-        icon: <FacebookFilled />,
+        icon: null,
         name: 'Facebook',
         url: '',
       },
       {
-        icon: <YoutubeOutlined />,
+        icon: null,
         name: 'Youtube',
         url: '',
       },

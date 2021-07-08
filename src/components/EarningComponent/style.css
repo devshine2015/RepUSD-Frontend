@@ -1,0 +1,25 @@
+.earning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earning-container {
+    width: 75%;
+    margin: 20px 0;
+}
+
+.earning-page-title {
+    font-size: 35.25pt;
+    font-weight: bold;
+}
+
+.earning-table-setting {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 24px;
+}
+
+.earning-table-setting-right {
+    display: flex;
+}

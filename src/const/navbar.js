@@ -1,11 +1,11 @@
 export default [
 	{
 		title: 'SEARCH SMART CONTRACTS',
-		url: '/search',
+		url: '/search_smart',
 	},
 	{
 		title: 'MY DASHBOARD',
-		url: '/',
+		url: '/dashboard',
 	},
 	{
 		title: 'MY REPUTATION',

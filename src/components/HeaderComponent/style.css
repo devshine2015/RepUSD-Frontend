@@ -1,3 +1,7 @@
 .menu {
   width: 50%;
 }
+
+.header-collapse-btn {
+  margin: 0 !important;
+}

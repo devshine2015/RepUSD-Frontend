@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LandingContainer from 'containers/AuthContainer/LandingContainer';
+import LandingContainer from 'containers/LandingContainer';
 
 
 const LandingPage = props => {

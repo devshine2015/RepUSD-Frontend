@@ -24,18 +24,18 @@
 	text-align: center;
 }
 
-.title {
+.landing-title {
 	font-family: 'Poppins';
 	font-size: 36.25px;
 	font-weight: bold;
 }
 
-.description {
+.landing-description {
 	font-family: 'Roboto';
 	font-size: 16.11px;
 }
 
-.connect-btn {
+.landing-connect-btn {
 	width: 148px;
 	height: 45px !important;
 	background: #d5b75f !important;

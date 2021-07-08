@@ -1,0 +1,41 @@
+.reputation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reputation-card {
+    width: 75%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px !important;
+	box-shadow: 5px 5px 10px -3px grey;
+	border: 1px solid darkgrey;
+    margin: 50px 0 !important;
+}
+
+.reputation-card-title {
+    font-size: 35.25pt;
+    font-weight: bold;
+}
+
+.reputation-explain-large {
+    font-size: 33.23pt;
+    font-weight: bold;
+}
+
+.reputation-explain-medium {
+    font-size: 24.17pt;
+    font-weight: bold;
+}
+
+.reputation-explain-small {
+    font-size: 18.13pt;
+    font-weight: bold;
+}
+
+.reputation-explain-tiny {
+    font-size: 16.11pt;
+    font-weight: bold;
+}
