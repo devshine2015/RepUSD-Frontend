@@ -1,12 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Menu, Button } from 'antd';
-import {
-	MenuFoldOutlined,
-	MenuUnfoldOutlined,
-} from '@ant-design/icons'
 
 import NavbarList from 'const/navbar';
-import history from 'utils/history';
 
 import { RepusdSmallMark } from 'img';
 import './style.css';
