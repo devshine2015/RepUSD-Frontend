@@ -75,8 +75,8 @@ export default props => {
             </PageHeader>
             <div className="dashboard-table-setting">
                 <Radio.Group defaultValue="usd" buttonStyle="solid">
-                    <Radio.Button value="usd" className="usd-native-btn usd">USD</Radio.Button>
-                    <Radio.Button value="native" className="usd-native-btn native">NATIVE</Radio.Button>
+                    <Radio.Button value="usd" className="usd-native-btn usd" style={{backgroundColor: 'black', color: 'white', border: 'none'}}>USD</Radio.Button>
+                    <Radio.Button value="native" className="usd-native-btn native" style={{backgroundColor: 'black', color: 'white', border: 'none'}}>NATIVE</Radio.Button>
                 </Radio.Group>
                 <div className="dashboard-table-setting-right">
                     <Search placeholder="Search" />

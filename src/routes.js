@@ -10,6 +10,7 @@ import SearchSmartPage from 'pages/SearchSmartPage';
 import ReputationPage from 'pages/ReputationPage';
 import BorrowPage from 'pages/BorrowPage';
 import EarningPage from 'pages/EarningPage';
+// import AdminPage from 'pages/AdminPage';
 import HeaderComponent from 'components/HeaderComponent';
 import FooterComponent from 'components/FooterComponent';
 
@@ -31,6 +32,7 @@ const Routes = () => {
                     <Route exact path="/reputation" component={ReputationPage} />
                     <Route exact path="/borrow" component={BorrowPage} />
                     <Route exact path="/earnings" component={EarningPage} />
+                    {/* <Route exact path="/admin" component={AdminPage} /> */}
                 </Switch>
             </Content>
             <Footer className="footer">
