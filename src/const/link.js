@@ -1,6 +1,6 @@
 import { AiOutlineTwitter, AiFillYoutube } from 'react-icons/ai';
 
-import { TiSocialInstagram } from 'react-icons/ti';
+// import { TiSocialInstagram } from 'react-icons/ti';
 import { FaPinterestP, FaFacebookF } from 'react-icons/fa';
 
 export default [
@@ -118,7 +118,7 @@ export default [
         url: '',
       },
       {
-        icon: <TiSocialInstagram />,
+        icon: null,
         name: 'Instagram',
         url: '',
       },
