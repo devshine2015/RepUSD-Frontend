@@ -1,7 +1,7 @@
 import { AiOutlineTwitter, AiFillYoutube } from 'react-icons/ai';
 
 // import { TiSocialInstagram } from 'react-icons/ti';
-import { FaPinterestP, FaFacebookF } from 'react-icons/fa';
+// import { FaPinterestP, FaFacebookF } from 'react-icons/fa';
 
 export default [
   {
