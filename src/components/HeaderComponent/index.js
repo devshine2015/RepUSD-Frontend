@@ -3,7 +3,7 @@ import { Menu, Button } from 'antd';
 
 import WalletModalComponent from 'components/WalletModalComponent';
 import NavbarList from 'const/navbar';
-import { AiOutlineMenuLeft, AiOutlineMenuRight} from 'react-icons/ai';
+import { AiOutlineMenuFold, AiOutlineMenuUnfold} from 'react-icons/ai';
 
 import { RepusdSmallMark } from 'img';
 import './style.css';
@@ -49,7 +49,7 @@ export default (props) => {
 				}
 			</Menu>
 			<Button className="header-collapse-btn" onClick={toggleCollapsed} style={{ marginBottom: 16, display: 'flex', alignItems: 'center' }}>
-				{!menuFoldState ? <AiOutlineMenuRight /> : <AiOutlineMenuLeft />}	
+				{!menuFoldState ? <AiOutlineMenuUnfold /> : <AiOutlineMenuFold />}	
 			</Button>
 			<WalletModalComponent visible={isModalVisible} setIsModalVisible={setIsModalVisible} />
 		</>
