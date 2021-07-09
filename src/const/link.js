@@ -1,6 +1,6 @@
-import { FaPinterestP, FaFacebookF, FaTwitter } from 'react-icons/fa'
-import { AiFillYoutube,  } from 'react-icons/ai'
-import { TiSocialInstagram } from 'react-icons/ti';
+// import { FaPinterestP, FaFacebookF, FaTwitter } from 'react-icons/fa'
+// import { AiFillYoutube,  } from 'react-icons/ai'
+// import { TiSocialInstagram } from 'react-icons/ti';
 
 export default [
   {
@@ -112,27 +112,27 @@ export default [
     name: 'FOLLOW US ON',
     childLink: [
       {
-        icon: <FaTwitter />,
+        icon: null,
         name: 'Twitter',
         url: '',
       },
       {
-        icon: <TiSocialInstagram />,
+        icon: null,
         name: 'Instagram',
         url: '',
       },
       {
-        icon: <FaPinterestP />,
+        icon: null,
         name: 'Pinterest',
         url: '',
       },
       {
-        icon: <FaFacebookF />,
+        icon: null,
         name: 'Facebook',
         url: '',
       },
       {
-        icon: <AiFillYoutube />,
+        icon: null,
         name: 'Youtube',
         url: '',
       },

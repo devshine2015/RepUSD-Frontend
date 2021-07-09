@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, Button } from 'antd';
-import { AiOutlineMenuFold, AiOutlineMenuUnfold } from 'react-icons/ai';
+// import { AiOutlineMenuFold, AiOutlineMenuUnfold } from 'react-icons/ai';
 
 import WalletModalComponent from 'components/WalletModalComponent';
 import NavbarList from 'const/navbar';
@@ -49,7 +49,7 @@ export default (props) => {
 				}
 			</Menu>
 			<Button className="header-collapse-btn" onClick={toggleCollapsed} style={{ marginBottom: 16, display: 'flex', alignItems: 'center' }}>
-				{!menuFoldState ? <AiOutlineMenuUnfold /> : <AiOutlineMenuFold />}	
+				{!menuFoldState ? 'UnFold' : 'Fold'}	
 			</Button>
 			<WalletModalComponent visible={isModalVisible} setIsModalVisible={setIsModalVisible} />
 		</>
