@@ -123,12 +123,12 @@ export default [
         url: '',
       },
       {
-        icon: <FaPinterestP />,
+        icon: null,
         name: 'Pinterest',
         url: '',
       },
       {
-        icon: <FaFacebookF />,
+        icon: null,
         name: 'Facebook',
         url: '',
       },
