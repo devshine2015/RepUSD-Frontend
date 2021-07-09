@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Menu, Button } from 'antd';
-// import { AiOutlineMenuFold, AiOutlineMenuUnfold } from 'react-icons/ai';
 
 import WalletModalComponent from 'components/WalletModalComponent';
 import NavbarList from 'const/navbar';

@@ -1,7 +1,3 @@
-// import { FaPinterestP, FaFacebookF, FaTwitter } from 'react-icons/fa'
-// import { AiFillYoutube,  } from 'react-icons/ai'
-// import { TiSocialInstagram } from 'react-icons/ti';
-
 export default [
   {
     name: 'QUICK LINK',
